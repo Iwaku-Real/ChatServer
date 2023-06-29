@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Chat Server</title>
+        <meta name="description" content="Welcome to my chat server!">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h3>The server IP/port is the same one you are on right now!</h3>
+        <h1>Welcome to my chat server!</h1>
+        <p>
+            This is a project I've been wanting to do for quite a while now. I thought it would be fun to run a chat server
+            and have people like you join. If you are seeing this right now, I'm glad you're here. I'm happy to even know
+            the server works fine for you. 😉
+        </p>
+        <p>
+            Currently the chat server only runs on TCP and I'm still figuring out how to write a web version. You will have
+            to use a <s>TCP client such as Telnet or PuTTY</s> <em>Python script that I wrote</em> to join. If you don't know what any of it is, don't worry – I'll
+            explain it below.
+        </p>
+        <p>
+            I'm still working on all of this and not everything is done (including web support as above). So there isn't a
+            lot of functionality. And you can't send emojis either. Don't try to send any non-ASCII characters through the
+            server. Don't even try to DDoS it.
+        </p>
+        <p>This web page was written in HTML, and the server was entirely written in Python.</p>
+        <hr>
+        <p>...Are you bored yet?</p>
+        <p>Okay, enough info, I'll now show you how to join.</p>
+
+        <hr>
+
+        <h1>How to join </h1>
+        <ul>
+            <li><a href="#Windows">Windows<s>/Mac/Linux</s></a></li>
+            <li><!--a href="#Android/iOS"--><s>Android/iOS</s><!--/a--></li>
+        </ul>
+        <h3>NOTE: If your username isn't working it's because it's either already taken or it's whitespace.</h3>
+        <h2 id="Windows">Windows<s>/Mac/Linux</s></h2>
+        <p>
+            Up until now I haven't realized Telnet was a terrible idea to use for a chat client. New messages would overlap
+            with input which would result in you being unable to read what you're trying to type. So I've written a custom
+            client using Tkinter and <em>if you have Python 3+ installed</em> (or you're not on Windows), you can <a href="client.py">get the script
+            here.</a>
+        </p>
+        <p>
+            <a href="client.exe">Download this</a> if you <em>DON'T</em> have Python.
+        </p>
+    </body>
+</html>
+<style>
+    img {
+        max-width:100%;
+        max-height:100%;
+        width: auto;
+        height: auto;
+    }
+</style>
